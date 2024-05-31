@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/electrodomestico.png" type="image/x-icon">
+    <title>Productos - CaC Electrodomésticos</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="encabezado">
+        <div class="caja">
+
+            <h1>
+                <img class="logoPag" src="../imagenes/electrodomestico.png">
+                <p>CAC Electrodomesticos</p>
+            </h1>
+
+            <div class="anteBanner">
+                Envíos a provincia de Buenos Aires - Retiro sin cargo en surcusales
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a hidden id = "product-boton" href="../html/productos.html">Productos</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
+                    <li ><a id="login-boton" href="../html/login.html">login</a></li>
+                    <li ><a id="registro-boton" href="../html/registrarse.html">Registrarse</a></li>
+                    <li><a hidden id="cerrar-sesion"  style="color: rgb(112, 7, 7)" href="../html/index.html">Cerrar Secion</a></li>
+                </ul>
+            </nav>
+            <div class="posBanner">
+                <button onclick="mostrarCategoria('menClothing')">Men's Clothing</button>
+                <button onclick="mostrarCategoria('jewelery')">Jewelery</button>
+                <button onclick="mostrarCategoria('womanClothing')">Women's Clothing</button>
+                <button onclick="mostrarCategoria('electronics')">Electronics</button>
+            </div>
+
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="¿Qué estás buscando hoy?" class="search-input">
+            <button type="submit" class="search-button">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <ul class="productos" id="listaProductos">
+            <!-- Los productos se agregarán aquí dinámicamente -->
+        </ul>
+        <!-- <ul class="productos"> -->
+        <!-- <li>
+                    <img class="imagenPagProductos" src="../imagenes/cocina.jpg">
+                    <p class="producto-descripcion">Cocina Domec CGXV, Multigas, Ancho 56cms., Acero Inoxidable</p>
+                    <p class="producto-precio">$471.999</p>
+                </li>
+            </ul> -->
+    </main>
+
+    <footer>
+        <img src="../imagenes/electrodomestico.png" alt="logo" width="40">
+        <p class="copyright">&copy Copyright CaC Electrodomésticos - 2024</p>
+    </footer>
+    <script src="../scripts/producto.js"></script>
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>
