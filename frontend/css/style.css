@@ -322,7 +322,7 @@ ul, li{
     width: 330px;
     height: 330px;
     border-radius: 20px;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 2%;    
 }
 
@@ -358,3 +358,12 @@ footer{
     font-size: 13px;
     margin:20px;
 }
+
+/* @media screen and (max-width: 480px) {
+    .caja, .search-button, .banner, .anteBanner, .posBanner, 
+        .opcionesPosBanner, .copyrightz, .copyright, .imaPropa, .productosHome  {
+        width: 480px;
+    }
+
+    .contenido-ZonaProductos, .imagenPagProductos, .
+} */

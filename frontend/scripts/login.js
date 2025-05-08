@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if(existeUsuario){
             localStorage.setItem("loggedUser", JSON.stringify(existeUsuario));
-            window.location.replace("../html/index.html")
+            window.location.replace("../index.html")
             return;
         } else {
             alert("Usuario inexistente, intente nuevamente");
