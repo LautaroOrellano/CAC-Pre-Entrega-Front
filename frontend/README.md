@@ -23,23 +23,33 @@ Este es un proyecto frontend de práctica que simula un sistema de registro, log
 
 /html
 
-├── index.html # Página principal con productos
+├── contacto.html # Página principal con productos
 
 ├── login.html # Formulario de inicio de sesión
 
-└── register.html # Formulario de registro
+└── registrarse.html # Formulario de registro
+
+└── productos.html # Formulario de productos
 
 /css
 
-└── estilos.css # Estilos generales
+└── estilos-registros.css # Estilos registro
+
+└── reset.css # Estilos login
+
+└── style.css # Estilos generales
+
+└── style-contactos.css # Estilos contactos
 
 /js
 
+└── index.js # Lógica del programa
+
 ├── login.js # Lógica de validación de login
 
-├── register.js # Lógica de registro y guardado en localStorage
+├── registro.js # Lógica de registro y guardado en localStorage
 
-└── productos.js # Fetch a API y renderizado de productos
+└── producto.js # Fetch a API y renderizado de productos
 
 ## 🛡️ Consideraciones de seguridad
 
