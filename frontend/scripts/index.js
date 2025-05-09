@@ -9,6 +9,7 @@ const logoutBoton = document.getElementById('cerrar-sesion');
 
 if (user.length != 0) {
 
+        //Verifico que los elementos se encuentre en el DOM antes de modificarlos
     if (loginBoton && registroBoton) {
         // Oculto los botones de login y registro porque ya hay un usuario autenticado
         loginBoton.style.display = 'none';
@@ -30,8 +31,9 @@ if (user.length != 0) {
     logoutBoton.style.display = 'none';
 }
 
-// Espero el contenido del DOM que este cargado
+// Espero a que todo el contenido del DOM este cargado
 document.addEventListener("DOMContentLoaded", () => {
+    //Vuelvo a obtener el boton de "cerrar sesion"
     const cerrarSesion = document.getElementById('cerrar-sesion');
 
     //Le agrego un evento cuando el usuario hace click.
